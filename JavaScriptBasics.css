@@ -1,0 +1,59 @@
+/*https://www.webdesignerdepot.com/2013/08/10-css-selectors-you-shouldnt-code-without/*/
+/*http://www.w3schools.com/cssref/css_selectors.asp*/
+*{
+    margin: auto;
+    padding: 0px;
+}
+#wrapper{
+    width: : 800px;
+    height: 700px;
+    background-color: #002699;
+    /* margin: 0px auto; */
+    padding: 10px;
+}
+#header{
+    min-height: 40px;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    margin: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+#side_bar{
+    min-height: 200px;
+    width: 180px;
+    background-color: #2fb62f;
+    border-radius: 25px;
+    display: inline-block;
+    position: absolute;
+    margin: 10px;
+    padding: 20px;
+}
+ul #side_bar{
+    margin-left: 5px;
+}
+#main_content{
+    min-height: 400px;
+    /*width: 700px;*/
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    display: inline-block;
+    margin-left: 280px;
+    margin-right: 20px;
+    padding: 20px;
+    position: absolute;
+}
+span{
+    color: #42f4ee;
+}
+#footer{
+    height: 40px;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 10px;
+    padding-top:20px;/*top,right,bottom,left*/
+    padding-left: 20px;
+    margin-top: 530px;
+}
